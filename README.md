@@ -698,6 +698,17 @@ pip install mempalace
 
 ---
 
+## Repository topology
+
+This repository is the canonical source of truth for the extended MemPalace work on this profile.
+
+Additional imported areas now live here too:
+- `integrations/openclaw/` for the OpenClaw plugin and hook work
+- `docs/` for imported architecture and API notes from the more advanced private fork
+- `docs/reference/private-fork/` for preserved reference indices from that private fork
+
+See `docs/repo_topology.md` for the merge strategy and intended long-term structure.
+
 ## Contributing
 
 PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and guidelines.

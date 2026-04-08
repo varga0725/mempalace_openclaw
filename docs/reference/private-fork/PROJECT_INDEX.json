@@ -1,0 +1,40 @@
+{
+  "project_name": "MemPalace",
+  "generated": "2026-04-08",
+  "structure": {
+    "source": "mempalace/",
+    "tests": "tests/",
+    "benchmarks": "benchmarks/",
+    "examples": "examples/"
+  },
+  "entry_points": {
+    "cli": "mempalace/cli.py",
+    "mcp": "mempalace/mcp_server.py"
+  },
+  "core_modules": [
+    {
+      "name": "KnowledgeGraph",
+      "path": "mempalace/knowledge_graph.py",
+      "purpose": "Temporal Entity-Relationship Graph using SQLite"
+    },
+    {
+      "name": "Searcher",
+      "path": "mempalace/searcher.py",
+      "purpose": "Semantic search using ChromaDB"
+    },
+    {
+      "name": "Miner",
+      "path": "mempalace/miner.py",
+      "purpose": "Data ingestion engine"
+    },
+    {
+      "name": "Dialect",
+      "path": "mempalace/dialect.py",
+      "purpose": "AAAK compression format"
+    }
+  ],
+  "dependencies": [
+    "chromadb",
+    "sqlite3"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "openclaw-mempalace",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "MemPalace integration for OpenClaw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varga0725/openclaw-mempalace.git"
+  },
+  "keywords": ["openclaw", "mempalace", "memory", "plugin", "hook"],
+  "files": [
+    "index.ts",
+    "openclaw.plugin.json",
+    "hooks",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "compat": {
+      "pluginApi": ">=2026.3.24-beta.2",
+      "minGatewayVersion": ">=2026.3.24-beta.2"
+    },
+    "build": {
+      "openclawVersion": "2026.3.24-beta.2",
+      "pluginSdkVersion": "2026.3.24-beta.2"
+    }
+  }
+}
