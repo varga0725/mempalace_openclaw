@@ -1,4 +1,8 @@
-# openclaw-mempalace
+# OpenClaw integration for MemPalace
+
+This directory is the imported and now canonical OpenClaw integration surface inside `mempalace_openclaw`.
+
+For current migration status, see `STATUS.md`.
 
 MemPalace integration for OpenClaw.
 

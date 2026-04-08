@@ -707,7 +707,10 @@ Additional imported areas now live here too:
 - `docs/` for imported architecture and API notes from the more advanced private fork
 - `docs/reference/private-fork/` for preserved reference indices from that private fork
 
-See `docs/repo_topology.md` for the merge strategy and intended long-term structure.
+See:
+- `docs/repo_topology.md` for the high-level structure
+- `docs/merge_plan.md` for the one-repo merge strategy
+- `integrations/openclaw/STATUS.md` for the current OpenClaw integration state
 
 ## Contributing
 
