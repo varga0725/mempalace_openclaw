@@ -711,6 +711,7 @@ See:
 - `docs/repo_topology.md` for the high-level structure
 - `docs/merge_plan.md` for the one-repo merge strategy
 - `integrations/openclaw/STATUS.md` for the current OpenClaw integration state
+- `integrations/openclaw/docs/reconciliation.md` for the technical consolidation direction
 
 ## Contributing
 

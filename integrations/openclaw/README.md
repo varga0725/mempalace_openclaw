@@ -3,6 +3,10 @@
 This directory is the imported and now canonical OpenClaw integration surface inside `mempalace_openclaw`.
 
 For current migration status, see `STATUS.md`.
+For backend and consolidation direction, see:
+- `docs/reconciliation.md`
+- `docs/backends.md`
+- `docs/safety.md`
 
 MemPalace integration for OpenClaw.
 

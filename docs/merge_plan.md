@@ -40,6 +40,7 @@ Purpose:
 ### Cleanup wave 2
 - compare `integrations/openclaw/` bridge/backend logic with canonical MemPalace interfaces
 - replace duplicated paths with calls into canonical interfaces where possible
+- prioritize the repository's own MCP/server surface as the preferred non-legacy backend target
 
 ### Cleanup wave 3
 - decide whether standalone `openclaw-mempalace` becomes deprecated or a mirror

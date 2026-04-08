@@ -32,6 +32,10 @@ If functionality already exists in the main MemPalace codebase, the long-term go
 - duplicated backend logic that should eventually route through canonical MemPalace interfaces
 - legacy OpenClaw integration experiments
 
+See also:
+- `docs/reconciliation.md`
+- `TODO.md`
+
 ## Long-term target
 
 The desired end state is:

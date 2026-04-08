@@ -41,9 +41,9 @@ If OpenClaw later defines a safe bridge pattern for local companion processes, t
 ## Immediate engineering goal
 
 Next refactor target:
-- remove direct `child_process` usage from `index.ts`
-- remove direct `child_process` usage from `hooks/mempalace-session-save/handler.ts`
-- keep only the shared bridge module as the temporary unsafe boundary
+- stop expanding duplicated bridge/storage logic inside `integrations/openclaw/`
+- route future backend work toward the canonical MemPalace interfaces already present in this repository
+- keep only the shared bridge module as the temporary unsafe boundary until a real MCP-backed path exists
 
 ## Official-quality bar
 

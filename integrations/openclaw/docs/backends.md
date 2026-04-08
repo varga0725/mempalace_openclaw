@@ -36,4 +36,6 @@ Instead of baking one transport into the whole plugin, we can now evolve toward:
 
 ## Recommended future direction
 
-Best next backend target is probably `http` or `mcp`, because either one could let the plugin runtime stop shelling out locally.
+Inside the canonical `mempalace_openclaw` repository, `mcp` is now the preferred future backend direction because the repository already contains an MCP/server path in the main MemPalace codebase.
+
+`http` can still exist as an option later, but it should no longer be treated as the default next target ahead of the repository's own MCP surface.
